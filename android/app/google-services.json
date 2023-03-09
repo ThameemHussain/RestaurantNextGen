@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "886975848837",
+    "project_id": "billing-management-7e841",
+    "storage_bucket": "billing-management-7e841.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886975848837:android:da65504506a4cfcd5264ec",
+        "android_client_info": {
+          "package_name": "com.restaurantnextgenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886975848837-eoheac0k1uossl4qldfmr6fj45bskh3t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.restaurantnextgenapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "886975848837-02kch5kt8mmp8lr9nb3dpv743m3rp623.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApuKjnDJnSXxzrns9-pip0FCba8-0qTq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886975848837-02kch5kt8mmp8lr9nb3dpv743m3rp623.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
