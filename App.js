@@ -5,6 +5,7 @@ import MenuCompo from './Components/MenuCompo';
 import Table from './Components/Table';
 import AEMenu from './Components/AEMenu';
 import ViewMenu from './Components/ViewMenu';
+import DownloadMenu from './Components/DownloadMenu';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
@@ -30,6 +31,7 @@ export default function App() {
           <Stack.Screen name="Table" component={Table} />
           <Stack.Screen name="Add/EditMenu" component={AEMenu} />
           <Stack.Screen name="ViewMenu" component={ViewMenu} />
+          <Stack.Screen name="DownloadMenu" component={DownloadMenu} />
         </Stack.Navigator>
       </NavigationContainer>
     </NativeBaseProvider>

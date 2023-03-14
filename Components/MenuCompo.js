@@ -28,7 +28,14 @@ export default function MenuCompo({navigation}) {
           Add/Edit Menu
         </Button>
         <Spacer />
-        <Button m="10%" size="lg" variant="outline" width={'70%'}>
+        <Button
+          m="10%"
+          size="lg"
+          variant="outline"
+          width={'70%'}
+          onPress={() => {
+            navigation.navigate('DownloadMenu');
+          }}>
           Download Menu
         </Button>
       </Flex>

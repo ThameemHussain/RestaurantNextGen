@@ -35,7 +35,7 @@ export default function AEMenu({navigation}) {
   const createCategory = () => {
     usersCollection
       .doc('menu')
-      .update({name: 'Test'})
+      .update({Thameem: 'Test'})
       .then(() => {
         console.log('Updated!');
       });
